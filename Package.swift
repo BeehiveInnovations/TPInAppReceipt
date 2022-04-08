@@ -11,7 +11,8 @@ let package = Package(
 	
     products: [
         .library(name: "TPInAppReceipt", targets: ["TPInAppReceipt"]),
-		.library(name: "TPInAppReceipt-Objc", targets: ["TPInAppReceipt-Objc"]),
+	.library(name: "TPInAppReceiptDynamic", type: .dynamic, targets: ["TPInAppReceipt"]),	    
+	.library(name: "TPInAppReceipt-Objc", targets: ["TPInAppReceipt-Objc"]),
     ],
 	dependencies: [
 		.package(url: "https://github.com/tikhop/ASN1Swift", .upToNextMajor(from: "1.0.0"))
