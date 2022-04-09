@@ -35,22 +35,9 @@
 		2907AECA2800FE07006EA24A /* TPInAppReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2907AE9A2800FBFA006EA24A /* TPInAppReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2939E04E2801009000B50CBF /* TPInAppReceipt_TPInAppReceipt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2939E04D2801009000B50CBF /* TPInAppReceipt_TPInAppReceipt.bundle */; };
 		2939E04F2801009000B50CBF /* TPInAppReceipt_TPInAppReceipt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2939E04D2801009000B50CBF /* TPInAppReceipt_TPInAppReceipt.bundle */; };
-		2939E06C280106AA00B50CBF /* ASN1SwiftDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2939E06B280106AA00B50CBF /* ASN1SwiftDynamic */; };
-		2939E06E280106B700B50CBF /* ASN1SwiftDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2939E06D280106B700B50CBF /* ASN1SwiftDynamic */; };
+		2939E0BB280109DA00B50CBF /* ASN1Swift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2939E0BA280109DA00B50CBF /* ASN1Swift.xcframework */; };
+		2939E0BE280109E000B50CBF /* ASN1Swift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2939E0BA280109DA00B50CBF /* ASN1Swift.xcframework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2939E05D2801043800B50CBF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2907AE842800FBC8006EA24A /* TPInAppReceipt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPInAppReceipt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +56,7 @@
 		2907AE9D2800FBFA006EA24A /* Bundle+Private.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Private.swift"; sourceTree = "<group>"; };
 		2907AEB52800FDDE006EA24A /* TPInAppReceipt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPInAppReceipt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2939E04D2801009000B50CBF /* TPInAppReceipt_TPInAppReceipt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TPInAppReceipt_TPInAppReceipt.bundle; sourceTree = "<group>"; };
+		2939E0BA280109DA00B50CBF /* ASN1Swift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ASN1Swift.xcframework; path = ../ASN1Swift/ASN1Swift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2939E06C280106AA00B50CBF /* ASN1SwiftDynamic in Frameworks */,
+				2939E0BB280109DA00B50CBF /* ASN1Swift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2939E06E280106B700B50CBF /* ASN1SwiftDynamic in Frameworks */,
+				2939E0BE280109E000B50CBF /* ASN1Swift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +121,7 @@
 		2939E0472800FE5100B50CBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2939E0BA280109DA00B50CBF /* ASN1Swift.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,7 +163,6 @@
 			);
 			name = TPInAppReceipt;
 			packageProductDependencies = (
-				2939E06B280106AA00B50CBF /* ASN1SwiftDynamic */,
 			);
 			productName = TPInAppReceipt;
 			productReference = 2907AE842800FBC8006EA24A /* TPInAppReceipt.framework */;
@@ -188,7 +176,6 @@
 				2907AEB12800FDDE006EA24A /* Sources */,
 				2907AEB22800FDDE006EA24A /* Frameworks */,
 				2907AEB32800FDDE006EA24A /* Resources */,
-				2939E05D2801043800B50CBF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +183,6 @@
 			);
 			name = "TPInAppReceipt-iOS";
 			packageProductDependencies = (
-				2939E06D280106B700B50CBF /* ASN1SwiftDynamic */,
 			);
 			productName = "TPInAppReceipt-iOS";
 			productReference = 2907AEB52800FDDE006EA24A /* TPInAppReceipt.framework */;
@@ -229,7 +215,6 @@
 			);
 			mainGroup = 2907AE7A2800FBC8006EA24A;
 			packageReferences = (
-				2939E06A280106AA00B50CBF /* XCRemoteSwiftPackageReference "ASN1Swift" */,
 			);
 			productRefGroup = 2907AE852800FBC8006EA24A /* Products */;
 			projectDirPath = "";
@@ -577,30 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2939E06A280106AA00B50CBF /* XCRemoteSwiftPackageReference "ASN1Swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/BeehiveInnovations/ASN1Swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2939E06B280106AA00B50CBF /* ASN1SwiftDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2939E06A280106AA00B50CBF /* XCRemoteSwiftPackageReference "ASN1Swift" */;
-			productName = ASN1SwiftDynamic;
-		};
-		2939E06D280106B700B50CBF /* ASN1SwiftDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2939E06A280106AA00B50CBF /* XCRemoteSwiftPackageReference "ASN1Swift" */;
-			productName = ASN1SwiftDynamic;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2907AE7B2800FBC8006EA24A /* Project object */;
 }
