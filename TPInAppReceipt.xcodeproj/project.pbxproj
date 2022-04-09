@@ -20,16 +20,11 @@
 		2907AEAC2800FBFA006EA24A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9B2800FBFA006EA24A /* Validation.swift */; };
 		2907AEAD2800FBFA006EA24A /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9C2800FBFA006EA24A /* Data+Extension.swift */; };
 		2907AEAE2800FBFA006EA24A /* Bundle+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9D2800FBFA006EA24A /* Bundle+Private.swift */; };
-		2907AEBC2800FDFF006EA24A /* InAppReceipt+ASN1Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE932800FBFA006EA24A /* InAppReceipt+ASN1Decodable.swift */; };
-		2907AEBD2800FDFF006EA24A /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE912800FBFA006EA24A /* Extras.swift */; };
-		2907AEBE2800FDFF006EA24A /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE8F2800FBFA006EA24A /* Initialization.swift */; };
-		2907AEBF2800FDFF006EA24A /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE942800FBFA006EA24A /* InAppReceipt.swift */; };
 		2907AEC02800FDFF006EA24A /* InAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE962800FBFA006EA24A /* InAppPurchase.swift */; };
 		2907AEC12800FDFF006EA24A /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE972800FBFA006EA24A /* Bundle+Extension.swift */; };
 		2907AEC22800FDFF006EA24A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE902800FBFA006EA24A /* Date+Extension.swift */; };
 		2907AEC32800FDFF006EA24A /* IARError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE992800FBFA006EA24A /* IARError.swift */; };
 		2907AEC42800FDFF006EA24A /* InAppReceiptPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE982800FBFA006EA24A /* InAppReceiptPayload.swift */; };
-		2907AEC52800FE04006EA24A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9B2800FBFA006EA24A /* Validation.swift */; };
 		2907AEC62800FE04006EA24A /* Bundle+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9D2800FBFA006EA24A /* Bundle+Private.swift */; };
 		2907AEC72800FE04006EA24A /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907AE9C2800FBFA006EA24A /* Data+Extension.swift */; };
 		2907AECA2800FE07006EA24A /* TPInAppReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2907AE9A2800FBFA006EA24A /* TPInAppReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -270,16 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2907AEC42800FDFF006EA24A /* InAppReceiptPayload.swift in Sources */,
-				2907AEBE2800FDFF006EA24A /* Initialization.swift in Sources */,
 				2907AEC12800FDFF006EA24A /* Bundle+Extension.swift in Sources */,
-				2907AEBF2800FDFF006EA24A /* InAppReceipt.swift in Sources */,
-				2907AEBD2800FDFF006EA24A /* Extras.swift in Sources */,
 				2907AEC72800FE04006EA24A /* Data+Extension.swift in Sources */,
 				2907AEC22800FDFF006EA24A /* Date+Extension.swift in Sources */,
 				2907AEC62800FE04006EA24A /* Bundle+Private.swift in Sources */,
-				2907AEBC2800FDFF006EA24A /* InAppReceipt+ASN1Decodable.swift in Sources */,
 				2907AEC02800FDFF006EA24A /* InAppPurchase.swift in Sources */,
-				2907AEC52800FE04006EA24A /* Validation.swift in Sources */,
 				2907AEC32800FDFF006EA24A /* IARError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
