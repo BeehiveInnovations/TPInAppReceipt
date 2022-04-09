@@ -72,3 +72,6 @@ fastlane/test_output
 TPInAppReceiptTests/MyDevice.swift
 
 .swiftpm/	
+/ASN1SwiftDynamic.xcframework/
+/TPInAppReceipt.xcframework/
+/archives/
