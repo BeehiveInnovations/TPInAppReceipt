@@ -76,3 +76,4 @@ TPInAppReceiptTests/MyDevice.swift
 /TPInAppReceipt.xcframework/
 /archives/
 /DerivedDataSimulator
+.DerivedData.noindex
