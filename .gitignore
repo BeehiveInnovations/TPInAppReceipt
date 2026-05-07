@@ -77,3 +77,4 @@ TPInAppReceiptTests/MyDevice.swift
 /archives/
 /DerivedDataSimulator
 .DerivedData.noindex
+.last_build_hash
