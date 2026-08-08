@@ -20,15 +20,21 @@ let package = Package(
 		.package(url: "https://github.com/tikhop/ASN1Swift", .upToNextMajor(from: "1.0.0"))
 	],
     targets: [
-        .target(
-            name: "TPInAppReceipt",
-			dependencies: ["ASN1Swift"],
-			path: "Sources",
-			exclude: ["Bundle+Private.swift", "Objc/InAppReceipt+Objc.swift"],
-			resources: [.process("AppleIncRootCertificate.cer"),
-                        .process("StoreKitTestCertificate.cer"),
-                        .process("PrivacyInfo.xcprivacy")]
-		),
+      .target(
+        name: "TPInAppReceipt",
+        dependencies: ["ASN1Swift"],
+        path: "Sources",
+        exclude: [
+          "Bundle+Private.swift",
+          "Objc/InAppReceipt+Objc.swift",
+          "TPInAppReceipt_TPInAppReceipt.bundle/Contents/Info.plist",
+        ],
+        resources: [
+          .process("TPInAppReceipt_TPInAppReceipt.bundle/Contents/Resources/AppleIncRootCertificate.cer"),
+          .process("TPInAppReceipt_TPInAppReceipt.bundle/Contents/Resources/StoreKitTestCertificate.cer"),
+          .process("PrivacyInfo.xcprivacy"),
+        ]
+      ),
 		.target(
 			name: "TPInAppReceipt-Objc",
 			dependencies: ["TPInAppReceipt"],
