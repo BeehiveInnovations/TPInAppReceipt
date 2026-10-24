@@ -96,6 +96,7 @@ public extension InAppPurchase
             return false
         }
         
-        return date >= purchaseDate && date < expirationDate
+        // Reference timestamps avoid the missing Date comparison entry points on OS 27.2 beta.
+        return date.timeIntervalSinceReferenceDate >= purchaseDate.timeIntervalSinceReferenceDate && date < expirationDate
     }
 }
